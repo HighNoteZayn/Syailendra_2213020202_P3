@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 1</value>
+  </data>
+  <data name="panelContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 451</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelContent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelContent.Name" xml:space="preserve">
+    <value>panelContent</value>
+  </data>
+  <data name="&gt;&gt;panelContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelContent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Keluar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Keluar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 400</value>
+  </data>
+  <data name="Keluar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 36</value>
+  </data>
+  <data name="Keluar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Keluar.Text" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="&gt;&gt;Keluar.Name" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="&gt;&gt;Keluar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Keluar.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Keluar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Pengaturan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pengaturan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 354</value>
+  </data>
+  <data name="Pengaturan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 40</value>
+  </data>
+  <data name="Pengaturan.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Pengaturan.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="&gt;&gt;Pengaturan.Name" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="&gt;&gt;Pengaturan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pengaturan.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Pengaturan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Tambah.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Tambah.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 284</value>
+  </data>
+  <data name="Tambah.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 33</value>
+  </data>
+  <data name="Tambah.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Tambah.Text" xml:space="preserve">
+    <value>Tambah Tugas</value>
+  </data>
+  <data name="&gt;&gt;Tambah.Name" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="&gt;&gt;Tambah.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tambah.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Tambah.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cuaca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cuaca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 226</value>
+  </data>
+  <data name="Cuaca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 37</value>
+  </data>
+  <data name="Cuaca.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Cuaca.Text" xml:space="preserve">
+    <value>Cuaca</value>
+  </data>
+  <data name="&gt;&gt;Cuaca.Name" xml:space="preserve">
+    <value>Cuaca</value>
+  </data>
+  <data name="&gt;&gt;Cuaca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cuaca.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Cuaca.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Kalender.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Kalender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 180</value>
+  </data>
+  <data name="Kalender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 40</value>
+  </data>
+  <data name="Kalender.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Kalender.Text" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="&gt;&gt;Kalender.Name" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="&gt;&gt;Kalender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Kalender.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Kalender.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HariIni.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HariIni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 135</value>
+  </data>
+  <data name="HariIni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 39</value>
+  </data>
+  <data name="HariIni.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="HariIni.Text" xml:space="preserve">
+    <value>Hari Ini</value>
+  </data>
+  <data name="&gt;&gt;HariIni.Name" xml:space="preserve">
+    <value>HariIni</value>
+  </data>
+  <data name="&gt;&gt;HariIni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HariIni.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;HariIni.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Mendatang.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Mendatang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 93</value>
+  </data>
+  <data name="Mendatang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 36</value>
+  </data>
+  <data name="Mendatang.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Mendatang.Text" xml:space="preserve">
+    <value>Mendatang</value>
+  </data>
+  <data name="&gt;&gt;Mendatang.Name" xml:space="preserve">
+    <value>Mendatang</value>
+  </data>
+  <data name="&gt;&gt;Mendatang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mendatang.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Mendatang.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Variable Text Light, 9pt</value>
+  </data>
+  <data name="Search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 42</value>
+  </data>
+  <data name="Search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 31</value>
+  </data>
+  <data name="Search.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="Search.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Search.Name" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Search.Parent" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;Search.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 2</value>
+  </data>
+  <data name="panelbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 453</value>
+  </data>
+  <data name="panelbar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelbar.Name" xml:space="preserve">
+    <value>panelbar</value>
+  </data>
+  <data name="&gt;&gt;panelbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelbar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
